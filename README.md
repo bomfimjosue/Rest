@@ -1,15 +1,6 @@
 # Rest
 Criando Rest
 
-Passo 2: Configuração do Banco de Dados
-No arquivo application.properties, configure a conexão com o banco de dados MySQL:
-
-spring.datasource.url=jdbc:mysql://localhost:3306/seu_banco_de_dados
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.flyway.enabled=true
 
 Passo 3: Configuração do Flyway
 Crie uma pasta db/migration dentro de src/main/resources e adicione os arquivos de migração SQL. Por exemplo, V1__Create_table.sql:
