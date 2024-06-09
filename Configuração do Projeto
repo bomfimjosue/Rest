@@ -1,0 +1,9 @@
+Passo 1: Configuração do Projeto
+Crie um novo projeto Spring Boot utilizando o Spring Initializr (https://start.spring.io/).
+Adicione as seguintes dependências:
+Spring Web
+Spring Data JPA
+MySQL Driver
+Flyway Migration
+Spring Boot DevTools
+Spring Boot Starter Validation
