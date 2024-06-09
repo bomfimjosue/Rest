@@ -3,36 +3,7 @@ Criando Rest
 
 
 
-Passo 4: Criação das Entidades
-Crie a entidade Pessoa:
 
-Java
-
-import javax.persistence.*;
-import javax.validation.constraints.*;
-
-@Entity
-public class Pessoa {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @NotBlank
-    @Size(max = 100)
-    private String nome;
-
-    @NotBlank
-    @Email
-    @Size(max = 100)
-    private String email;
-
-    @NotNull
-    @Min(0)
-    private Integer idade;
-
-    // Getters e Setters
-}
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
 Passo 5: Criação do Repositório
 Crie o repositório PessoaRepository:
