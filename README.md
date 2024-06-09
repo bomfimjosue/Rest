@@ -7,40 +7,7 @@ Criando Rest
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
 
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
-Passo 6: Criação do Serviço
-Crie o serviço PessoaService:
 
-Java
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
-
-import java.util.Optional;
-
-@Service
-public class PessoaService {
-
-    @Autowired
-    private PessoaRepository pessoaRepository;
-
-    public Page<Pessoa> listarTodos(Pageable pageable) {
-        return pessoaRepository.findAll(pageable);
-    }
-
-    public Optional<Pessoa> buscarPorId(Long id) {
-        return pessoaRepository.findById(id);
-    }
-
-    public Pessoa salvar(Pessoa pessoa) {
-        return pessoaRepository.save(pessoa);
-    }
-
-    public void deletar(Long id) {
-        pessoaRepository.deleteById(id);
-    }
-}
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
 Passo 7: Criação do Controlador
 Crie o controlador PessoaController:
