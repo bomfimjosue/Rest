@@ -2,18 +2,7 @@
 Criando Rest
 
 
-Passo 3: Configuração do Flyway
-Crie uma pasta db/migration dentro de src/main/resources e adicione os arquivos de migração SQL. Por exemplo, V1__Create_table.sql:
 
-SQL
-
-CREATE TABLE pessoa (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    email VARCHAR(100) NOT NULL,
-    idade INT NOT NULL
-);
-Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
 Passo 4: Criação das Entidades
 Crie a entidade Pessoa:
 
