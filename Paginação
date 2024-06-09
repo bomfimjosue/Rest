@@ -1,0 +1,2 @@
+Passo 8: Paginação
+A paginação já está configurada no método listarTodos do controlador e do serviço, utilizando o parâmetro Pageable.
