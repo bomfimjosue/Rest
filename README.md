@@ -5,15 +5,7 @@ Criando Rest
 
 
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
-Passo 5: Criação do Repositório
-Crie o repositório PessoaRepository:
 
-Java
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
-}
 Código gerado por IA. Examine e use com cuidado. Mais informações em perguntas frequentes.
 Passo 6: Criação do Serviço
 Crie o serviço PessoaService:
