@@ -1,0 +1,9 @@
+Passo 5: Criação do Repositório
+Crie o repositório PessoaRepository:
+
+Java
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PessoaRepository extends JpaRepository<Pessoa, Long> {
+}
